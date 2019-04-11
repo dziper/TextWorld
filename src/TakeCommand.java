@@ -17,8 +17,11 @@ public class TakeCommand implements Command {
     @Override
     public boolean excecute() {
         Item item = current.removeItem(itemName);
-        player.addItem(item);
-        return (item != null);
+        if(item != null){
+            player.addItem(item);
+            return true;
+        }
+        return false;
     }
 
     @Override

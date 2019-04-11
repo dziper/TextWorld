@@ -39,7 +39,9 @@ public class Main {
         System.out.println("'look' = see possible moves");
         System.out.println("'add room <roomname> ' = add new neighbor to current room");
         System.out.println("'quit' = quit the game");
+        System.out.println("'wait' = do literally nothing");
         System.out.println("'take <itemname>' = take item");
         System.out.println("'drop <itemname>' = drop item");
+
     }
 }
